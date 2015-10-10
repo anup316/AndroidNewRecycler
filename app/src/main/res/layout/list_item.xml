@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="48dp">
+
+    <ImageView
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="48dp"
+        android:id="@+id/img_item"
+        android:visibility="gone"
+        android:src="@android:drawable/ic_btn_speak_now"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/txv_item"
+        android:text="Check"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:drawableEnd="@drawable/add"
+        android:drawableRight="@drawable/add"
+        android:gravity="center_vertical"
+        android:textColor="@android:color/black"
+        />
+
+</LinearLayout>

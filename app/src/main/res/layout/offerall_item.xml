@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lyt_offerAll_itemImage"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:layout_height="150dp">
+
+    <!--<ImageView
+        android:id="@+id/img_offerAll_itemImage"
+        android:layout_width="match_parent"
+        android:layout_height="150dp" />-->
+<LinearLayout
+    android:background="#bb000000"
+    android:gravity="center_horizontal"
+    android:layout_alignParentBottom="true"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/txv_offerAll_discRate"
+        android:textSize="10sp"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:text="Rs 100 off"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txv_offerAll_price"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:text="Rs 100"
+        android:textColor="@android:color/white"
+        android:textSize="10sp"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+
+
+
+</RelativeLayout>

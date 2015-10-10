@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">OfferWorld Demo</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_splash_screen">Offer World</string>
+
+
+    <!--Recharge fragment text -->
+    <string name="edt_hint_text_ph_no">Enter 10 digit mobile number</string>
+    <string name="edt_hint_text_amt">Enter Amount</string>
+    <string name="title_activity_offers_all">Offers</string>
+    <string name="title_activity_recharge_all">Recharge</string>
+    <string name="title_activity_sign_up">Sign Up</string>
+
+<!--   Recharge -->
+
+    <string name="txv_recharge_dth">Recharge a DTH Connection</string>
+    <string name="txv_recharge_bills">Recharge or Pay Bill for</string>
+    <string name="txv_recharge_landline_broadband">Pay Bill for Landline/Broadband</string>
+    <string name="txv_recharge_electricity">Pay Bill for an Electricity Connection</string>
+    <string name="txv_recharge_gas">Pay Bill for a Gas Connection</string>
+
+
+</resources>

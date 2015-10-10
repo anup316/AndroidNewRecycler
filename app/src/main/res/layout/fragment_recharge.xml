@@ -1,0 +1,108 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/ex_list_group_item_padding"
+    tools:context="document.igt.com.androidnewrecycler.fragments.RechargeFragment">
+
+    <RadioGroup
+        android:id="@+id/rechargeType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Prepaid" />
+
+        <RadioButton
+            android:id="@+id/radioRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Postpaid" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/edtUniqueNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edt_hint_text_ph_no"
+        android:layout_below="@id/rechargeType"
+        android:inputType="number"
+        android:textSize="@dimen/edt_phno_textsize"
+         />
+
+    <Spinner
+        android:id="@+id/spnOperator"
+        android:layout_below="@id/edtUniqueNumber"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+    </Spinner>
+
+    <EditText
+        android:id="@+id/edtAmount"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edt_hint_text_amt"
+        android:inputType="number"
+        android:layout_below="@id/spnOperator"/>
+
+    <CheckBox
+        android:id="@+id/chkFastForward"
+        android:layout_below="@id/edtAmount"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_toRightOf="@id/chkFastForward"
+        android:layout_below="@id/edtAmount"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Fast Forward It"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Instant One Touch Payment"
+            android:textSize="10sp"
+            />
+    </LinearLayout>
+
+<Button
+    android:id="@+id/btn_proceed"
+    android:layout_below="@id/chkFastForward"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Proceed"
+    android:layout_marginTop="@dimen/ex_list_group_item_height"
+    android:textColor="@android:color/white"
+    android:background="@drawable/btn_background"
+    />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/offerPager"
+        android:layout_below="@id/btn_proceed"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/ex_list_group_item_padding"
+        android:layout_height="150dp"
+        />
+
+
+</RelativeLayout>
+</ScrollView>

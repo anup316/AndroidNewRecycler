@@ -1,0 +1,8 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="ex_list_group_item_padding">16dp</dimen>
+    <dimen name="ex_list_group_item_height">20dp</dimen>
+    <dimen name="edt_phno_textsize">15sp</dimen>
+</resources>
